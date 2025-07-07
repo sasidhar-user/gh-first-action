@@ -1,5 +1,5 @@
 name: first-workflow
-on: workflow-dispute
+on: workflow-dispatch
 jobs:
   first-job-pinting:
     steps:
