@@ -2,7 +2,8 @@ name: first-workflow
 on: workflow_dispatch
 jobs:
   first-job-pinting:
-    steps:
-      - name: printing hi
-        run: echo "Hello world"
-      - run : echo "bye"
+    runs-on: ubuntu-latest
+      steps:
+        - name: printing hi
+          run: echo "Hello world"
+        - run : echo "bye"
